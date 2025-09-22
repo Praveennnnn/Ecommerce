@@ -18,7 +18,7 @@ function CheckoutProduct({ id, title, image, rating, price }) {
       </div>
       <div className='ms-4'>
         <h4>{title}</h4>
-        <span>$<strong>{price}</strong></span>
+        <span>₹<strong>{price}</strong></span>
         <p>
           {Array(rating).fill().map((_, i) => (
             <span key={i}>⭐</span>

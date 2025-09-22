@@ -10,6 +10,7 @@ import Footwears from './Footwears';
 import Cosmetics from './Cosmetics';
 import Bags from './Bags';
 import Tshirt from './Tshirt';
+import Login from './Login';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path='Cosmetics' element ={<Cosmetics/>}></Route>
           <Route path='Jeans' element ={<Jeans/>}></Route>
           <Route path='Bags' element ={<Bags/>}></Route>
+          <Route path='Login' element ={<Login/>}></Route>
 
           
         </Routes>
